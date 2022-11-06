@@ -338,7 +338,7 @@ button:hover::before{
 
 
   100% {
-  	  left: 90%;    
+  	  left: 70%;    
   }
 
 }
@@ -356,7 +356,7 @@ button:hover::before{
 
 @keyframes moto {
   0% {
-  	  left: 90%;
+  	  left: 70%;
   }
 
 
