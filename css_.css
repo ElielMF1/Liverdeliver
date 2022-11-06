@@ -326,7 +326,7 @@ button:hover::before{
 
 
   100% {
-  	  left: 110%;    
+  	  left: 100%;    
   }
 
 }
@@ -349,7 +349,7 @@ button:hover::before{
 
 
   100% {
-  	  left: -10%;    
+  	  left: 0%;    
   }
 
 }
