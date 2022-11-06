@@ -310,12 +310,13 @@ button:hover::before{
 
 .carrito{
 	height: 10vh;
-}
-.conteiner_carrito{
 	position: relative;
 	animation-name: carrito;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
+}
+.conteiner_carrito{
+	
 	overflow-x: hidden;
 	
 }
@@ -327,19 +328,20 @@ button:hover::before{
 
 
   100% {
-  	  left: 100%;    
+  	  left: 115%;    
   }
 
 }
 
 .moto{
 	height: 10vh;
-}
-.conteiner_moto{
 	position: relative;
 	animation-name: moto;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
+}
+.conteiner_moto{
+	
 	overflow-x: hidden;
 	
 }
@@ -351,7 +353,7 @@ button:hover::before{
 
 
   100% {
-  	  left: 0%;    
+  	  left: -15%;    
   }
 
 }
