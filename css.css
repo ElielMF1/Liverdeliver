@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
 
 }
 
@@ -404,7 +405,7 @@ opciones{
 
 .cuadri{
 	
-	grid-template-columns: .1fr 3fr .1fr;
+	grid-template-columns: .5fr 2.5fr .5fr;
 	
 }
 
@@ -412,13 +413,21 @@ opciones{
 	width: 	95%;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 375px) {
 .cuadri{
 	grid-template-rows: repeat(6, 70px);	
 }
 label{
 	font-size: 	8px;
 }
+.ingre{
+	font-size: 11px;
+}
 
+
+.ingres_{
+	font-size: 11px;
+}
+	
 }
 
