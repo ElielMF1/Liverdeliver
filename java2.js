@@ -14,20 +14,20 @@ botonx.addEventListener("click", () => {
         
 
         if (mediox.value=="Moto") {
-        		if (descansosx.value<=31500) {
-        		ingresox.innerHTML= Math.trunc((descansosx.value/35)/30) + " paquetes por día"
+        		if (descansosx.value<=27000) {
+        		ingresox.innerHTML= Math.trunc((descansosx.value/35)/45) + " paquetes por día"
         		}
         		else{
-        			alert("El tope de ganancias en moto es de 31,500")
+        			alert("El tope de ganancias en moto es de 27,000")
         		}
         }
 
         else if(mediox.value=="Auto"){
-            	if (descansosx.value<=42000) {
-            		ingresox.innerHTML= Math.trunc((descansosx.value/35)/30) + " paquetes por día"
+            	if (descansosx.value<=54000) {
+            		ingresox.innerHTML= Math.trunc((descansosx.value/45)/30) + " paquetes por día"
         			}
         		else{
-        			alert("El tope de ganancias en moto es de 42,000")	
+        			alert("El tope de ganancias en moto es de 54,000")	
         		}	
         }
         else{
