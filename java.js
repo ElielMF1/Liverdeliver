@@ -16,14 +16,14 @@ botonx.addEventListener("click", () => {
         
 
         if (mediox.value=="Moto") {
-        		if (paquetesx.value<=30 ) {
-        				ingresox.innerHTML="$ " + descansosx.value*paquetesx.value*35 + " pesos mexicanos"
-        				nominax.innerHTML="$ " + descansosx.value*paquetesx.value*30 + " pesos mexicanos"
-        				gasolinax.innerHTML="$ " + descansosx.value*paquetesx.value*5 + " pesos mexicanos"
+        		if (paquetesx.value<=20 ) {
+        				ingresox.innerHTML="$ " + descansosx.value*paquetesx.value*45 + " pesos mexicanos"
+        				nominax.innerHTML="$ " + descansosx.value*paquetesx.value*38 + " pesos mexicanos"
+        				gasolinax.innerHTML="$ " + descansosx.value*paquetesx.value*7 + " pesos mexicanos"
         					
         		}
         		else{
-        			alert("El máximo de paquetes en Moto es 30")
+        			alert("El máximo de paquetes en Moto es 20")
         			
         		}
         		
@@ -31,9 +31,9 @@ botonx.addEventListener("click", () => {
 
         else if(mediox.value=="Auto"){
         		if (paquetesx.value<=40) {
-        			ingresox.innerHTML="$ " + descansosx.value*paquetesx.value*35 + " pesos mexicanos"
-        			nominax.innerHTML="$ " + descansosx.value*paquetesx.value*30 + " pesos mexicanos"
-        			gasolinax.innerHTML="$ " + descansosx.value*paquetesx.value*5 + " pesos mexicanos"	
+        			ingresox.innerHTML="$ " + descansosx.value*paquetesx.value*45 + " pesos mexicanos"
+        			nominax.innerHTML="$ " + descansosx.value*paquetesx.value*38 + " pesos mexicanos"
+        			gasolinax.innerHTML="$ " + descansosx.value*paquetesx.value*7 + " pesos mexicanos"	
         					
         		}
         		else{
