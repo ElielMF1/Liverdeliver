@@ -15,7 +15,7 @@ botonx.addEventListener("click", () => {
 
         if (mediox.value=="Moto") {
         		if (descansosx.value<=27000) {
-        		ingresox.innerHTML= Math.trunc((descansosx.value/35)/45) + " paquetes por día"
+        		ingresox.innerHTML= Math.trunc((descansosx.value/45)/15) + " paquetes por día"
         		}
         		else{
         			alert("El tope de ganancias en moto es de 27,000")
@@ -24,14 +24,14 @@ botonx.addEventListener("click", () => {
 
         else if(mediox.value=="Auto"){
             	if (descansosx.value<=54000) {
-            		ingresox.innerHTML= Math.trunc((descansosx.value/45)/30) + " paquetes por día"
+            		ingresox.innerHTML= Math.trunc((descansosx.value/45)/15) + " paquetes por día"
         			}
         		else{
         			alert("El tope de ganancias en moto es de 54,000")	
         		}	
         }
         else{
-        	alert	("opcion no valida")
+        	alert	("opcion no valida verifica que hayas selecionado correctamente los campos")
         }
 
         
